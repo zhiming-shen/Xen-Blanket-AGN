@@ -1,0 +1,45 @@
+	patching file arch/x86/apic.c
+  Hunk #1 succeeded at 537 (offset -10 lines).
+  Hunk #2 succeeded at 569 (offset -11 lines).
+  Hunk #3 succeeded at 639 (offset -11 lines).
+  Hunk #4 succeeded at 1128 (offset -36 lines).
+  Hunk #5 succeeded at 1225 (offset -36 lines).
+  Hunk #6 succeeded at 1235 (offset -36 lines).
+  Hunk #7 succeeded at 1268 (offset -36 lines).
+  Hunk #8 FAILED at 1344.
+  1 out of 8 hunks FAILED -- saving rejects to file arch/x86/apic.c.rej
+  patching file arch/x86/setup.c
+  Hunk #1 succeeded at 319 (offset 1 line).
+  Hunk #2 succeeded at 336 (offset 1 line).
+  Hunk #3 succeeded at 801 (offset 28 lines).
+  Hunk #4 FAILED at 834.
+  Hunk #5 succeeded at 918 (offset 25 lines).
+  Hunk #6 succeeded at 1372 with fuzz 2 (offset 58 lines).
+  1 out of 6 hunks FAILED -- saving rejects to file arch/x86/setup.c.rej
+  patching file arch/x86/time.c
+  Hunk #1 succeeded at 202 (offset 3 lines).
+  patching file arch/x86/x86_64/compat/entry.S
+  Hunk #1 succeeded at 414 (offset 4 lines).
+  Hunk #2 succeeded at 470 (offset 4 lines).
+  patching file arch/x86/x86_64/entry.S
+  Hunk #1 succeeded at 13 with fuzz 2 (offset 1 line).
+  Hunk #2 FAILED at 41.
+  Hunk #3 succeeded at 133 (offset 11 lines).
+  Hunk #4 succeeded at 360 (offset 19 lines).
+  Hunk #5 succeeded at 446 (offset 19 lines).
+  Hunk #6 succeeded at 764 (offset 50 lines).
+  Hunk #7 succeeded at 820 (offset 50 lines).
+  1 out of 7 hunks FAILED -- saving rejects to file arch/x86/x86_64/entry.S.rej
+  patching file common/Makefile
+  Hunk #1 succeeded at 45 with fuzz 2 (offset 3 lines).
+  patching file common/sched_sedf.c
+  Hunk #1 succeeded at 294 with fuzz 2 (offset -36 lines).
+  Hunk #2 FAILED at 378.
+  Hunk #3 FAILED at 386.
+  Hunk #4 succeeded at 1528 with fuzz 2 (offset 18 lines).
+  2 out of 4 hunks FAILED -- saving rejects to file common/sched_sedf.c.rej
+  patching file common/xenblanket.c
+  patching file include/public/blanket.h
+  patching file include/xen/blanket_hypercall.h
+  patching file include/xen/hypercall.h
+  Hunk #1 succeeded at 180 with fuzz 2 (offset 18 lines).

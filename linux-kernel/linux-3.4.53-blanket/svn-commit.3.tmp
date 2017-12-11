@@ -1,0 +1,5 @@
+xen_evtchn_do_upcall_hvm
+--This line, and those below, will be ignored--
+
+M    drivers/xen-blanket/events.c
+M    drivers/xen-blanket/grant-table.c

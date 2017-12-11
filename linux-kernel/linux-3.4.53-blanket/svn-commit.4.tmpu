@@ -1,0 +1,5 @@
+bug fix
+--This line, and those below, will be ignored--
+
+M    drivers/xen-blanket/grant-table.c
+M    drivers/xen-blanket/events.c

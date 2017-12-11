@@ -1,0 +1,25 @@
+#!/usr/bin/python -Es
+#  -*- mode: python; -*-
+#============================================================================
+# Copyright (C) 2004 Mike Wray <mike.wray@hp.com>
+# Copyright (C) 2005-2006 XenSource Inc
+#============================================================================
+
+"""Xen management daemon.
+   Provides console server and HTTP management api.
+
+   The daemon should reconnect to device control interfaces
+   and recover its state when restarted.
+
+"""
+import sys
+from xen.xend.server import SrvDaemon
+
+def main():
+    daemon = SrvDaemon.instance()
+    if sys.argv[1:] and sys.argv[1] == 'status':
+        return daemon.status()
+    return daemon.start()
+
+if __name__ == '__main__':
+    sys.exit(main())

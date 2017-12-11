@@ -1,0 +1,5 @@
+kernel//root/supercloud/source/xen-blanket/hyperv_driver/hyper-v/hv_vmbus.ko
+kernel//root/supercloud/source/xen-blanket/hyperv_driver/hyper-v/hv_utils.ko
+kernel//root/supercloud/source/xen-blanket/hyperv_driver/hyper-v/hv_storvsc.ko
+kernel//root/supercloud/source/xen-blanket/hyperv_driver/hyper-v/hv_netvsc.ko
+kernel//root/supercloud/source/xen-blanket/hyperv_driver/hyper-v/hid-hyperv.ko

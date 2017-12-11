@@ -1,0 +1,6 @@
+bug fix
+
+--This line, and those below, will be ignored--
+
+M    drivers/xen-blanket/xenbus/xenbus_probe_frontend.c
+M    drivers/xen-blanket/xenbus/xenbus_probe.c

@@ -1,0 +1,4 @@
+grant_table callback ifndef
+--This line, and those below, will be ignored--
+
+M    drivers/xen-blanket/grant_table.h

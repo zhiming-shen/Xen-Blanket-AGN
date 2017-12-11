@@ -1,0 +1,7 @@
+change gnttab_free_callback, gnttab_set_map_op, gnttab_set_unmap_op
+--This line, and those below, will be ignored--
+
+M    drivers/xen-blanket/grant-table.c
+M    drivers/xen-blanket/xendev/xen-blkfront.c
+M    drivers/xen-blanket/xenbus/xenbus_client.c
+M    drivers/xen-blanket/grant_table.h

@@ -1,0 +1,8 @@
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_ring.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_mmio.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_pci.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_balloon.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_net.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_blk.ko
+kernel//root/workspace_supercloud/BUILD/kernel-3.4.46/kvm_driver/blanket_drivers/kvm/virtio_scsi.ko
