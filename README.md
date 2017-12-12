@@ -1,4 +1,4 @@
-# Xen-Blanket-NG
+# Xen-Blanket-AGN
 
 Xen-Blanket is a nested-virtualization solution that works without hardware or software support from underlying cloud providers. With Xen-Blanket, you can get hypervisor-level control by running a second-layer Xen hypervisor within virtual machines (VMs). For more information, check out the paper: [The Xen-Blanket: Virtualize Once, Run Everywhere](http://fireless.cs.cornell.edu/publications/xen-blanket.pdf), in EuroSys 2012.
 
